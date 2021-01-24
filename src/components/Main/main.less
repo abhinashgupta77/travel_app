@@ -1,0 +1,65 @@
+.main-container {
+  z-index: 1;
+  position: relative;
+  flex-grow: 1;
+  flex-direction: column;
+  display: flex;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  padding-top: 20px;
+  .scroll-area {
+    height: 100%;
+    position: relative;
+    display: flex;
+    z-index: 0;
+    overflow: hidden;
+    .simple-scroll-content {
+      max-height: inherit;
+      box-sizing: content-box;
+      min-width: calc(100% + 17px);
+      overflow-x: hidden;
+      overflow-y: scroll;
+      padding-right: 17px;
+      .root-scrollable__content {
+        overflow-x: hidden;
+        display: flex;
+        box-sizing: border-box;
+        min-height: 100%;
+        overflow-y: hidden;
+        .root-scrollable__wrapper {
+          position: relative;
+          width: 100%;
+          .full-height-main {
+            height: 100%;
+            padding-bottom: 30px;
+            .card-main-container {
+              display: grid;
+              grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+              grid-gap: 20px;
+              padding: 10px 20px;
+            }
+            @media (max-width: 767px) {
+              .card-main-container {
+                padding: 10px;
+              }
+            }
+            .list-view-grid-main {
+              grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            }
+            @media (max-width: 767px) {
+              .list-view-grid-main {
+                grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+              }
+            }
+          }
+        }
+      }
+    }
+    @media (max-width: 767px) {
+      .simple-scroll-content {
+        min-width: 100%;
+      }
+    }
+  }
+}

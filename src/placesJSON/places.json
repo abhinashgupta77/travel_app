@@ -1,0 +1,50 @@
+[
+    {
+        "title": "Khartoum",
+        "places": ["Wellington","Tianjin"],
+        "imageUrl": "/images/khartoum.png",
+        "body": "Aenean lacinia bibendum nulla sed consectetur."
+    },
+    {
+        "title": "Santa Clara",
+        "places": ["Salt Lake City","Seville"],
+        "imageUrl": "/images/santa-clara.png",
+        "body": "Praesent commodo cursus magna, vel scelerisque nisl consectetur et."
+    },
+    {
+        "title": "Bengaluru",
+        "places": ["Puebla"],
+        "imageUrl": "/images/Bengaluru.png",
+        "body": "Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus."
+    },
+    {
+        "title": "Portland",
+        "places": ["Sacramento","Osaka","Astana"],
+        "imageUrl": "/images/Portland.png",
+        "body": "Tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus."
+    },
+    {
+        "title": "Fairbanks",
+        "places": ["Belgrade","Cali","Stockholm"],
+        "imageUrl": "/images/Fairbanks.png",
+        "body": "Pellentesque ornare sem lacinia quam venenatis vestibulum."
+    },
+    {
+        "title": "Sofia",
+        "places": ["Trondheim","Xian"],
+        "imageUrl": "/images/Sofia.png",
+        "body": "Pellentesque ornare sem lacinia quam venenatis vestibulum."
+    },
+    {
+        "title": "Belfast",
+        "places": ["Aarhus","Ankara"],
+        "imageUrl": "/images/Belfast.png",
+        "body": "Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec ullamcorper nulla non metus auctor fringilla."
+    },
+    {
+        "title": "Pune",
+        "places": ["Sylhet"],
+        "imageUrl": "/images/Pune.png",
+        "body": "Mauris condimentum nibh, ut fermentum massa justo sit amet risus."
+    }
+]
